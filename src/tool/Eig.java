@@ -19,6 +19,7 @@ public class Eig implements Comparable{
 	@Override
 	public int compareTo(Object arg0) {
 		
+		//What if argo cannot be converted to class Eig?
 		Eig e = (Eig)arg0;
 		
 		if(eigValue == e.eigValue) {
